@@ -13,9 +13,9 @@ double f = 3.14159265358979;
 System.out.println("Значение переменной a c типом byte равно " + a);
 System.out.println("Значение переменной b с типом int равно " + b);
 System.out.println("Значение переменной с типом short равно " + c);
-System.out.println("Значение переменной d типом short равно " + d);
-System.out.println("Значение переменной e типом short равно " + e);
-System.out.println("Значение переменной f типом short равно " + f);
+System.out.println("Значение переменной d типом long равно " + d);
+System.out.println("Значение переменной e типом float равно " + e);
+System.out.println("Значение переменной f типом double равно " + f);
 
     // Задача 2
 // Инициализация переменных
@@ -36,7 +36,7 @@ short paper = 480;
 // Общее количество учеников
 int allStudents =  ludmilaStudents+annaStudents+ekaterinaStudents;
 
-// Количество листов бумагив на одного ученика
+// Количество листов бумаги на одного ученика
 int paperPerStudent = paper/allStudents;
 System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги.");
 
